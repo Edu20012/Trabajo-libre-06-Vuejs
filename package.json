@@ -1,0 +1,32 @@
+{
+  "name": "tarea7-vue-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.vue --fix",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "vite": "^5.3.4",
+    "vitest": "^1.6.0",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^24.0.0"
+  }
+}

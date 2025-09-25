@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, Arial, sans-serif; background:#f1f5f9; color:#0f172a; }
+button { cursor:pointer; background:#2563eb; border:0; color:#fff; border-radius:4px; }
+button:disabled { opacity:.6; cursor:not-allowed; }
+button:hover:not(:disabled) { background:#1d4ed8; }
+section { max-width:800px; margin:0 auto; }
